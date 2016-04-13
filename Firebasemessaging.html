@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"; type="text/css"; href="Firebasemessaging.css" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="jquery-1.12.1.min.js"></script>
+</head>
+<body>
+  <div class="container">
+
+          <h1>Anonymous Chat Application</h1>
+
+          <div class="panel panel-default">
+
+              <div class="panel-body">
+                  <div id="comments-container"></div>
+              </div>
+
+              <div class="panel-footer">
+
+                  <form role="form">
+                      <div class="form-group">
+                          <label for="comments">Please enter your comments here</label>
+                          <input class="form-control" id="comments" name="comments">
+                      </div>
+
+                      <button type="submit" id="submit-btn" name="submit-btn"
+                          class="btn btn-success">Send Comments</button>
+
+                      <button type="reset" class="btn btn-danger">Clear Comments</button>
+                  </form>
+
+              </div>
+          </div>
+      </div>
+
+
+  <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+  <script type="text/javascript" src="Firebasemessaging.js" ></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
